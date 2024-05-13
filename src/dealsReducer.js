@@ -2,7 +2,9 @@ const GET_DEALS = "GET_DEALS";
 
 export const getDeals = () => async (dispatch) => {
   try {
-    const response = await fetch("http://localhost:5000/api/deals");
+    const response = await fetch(
+      "https://client-n5fppci2o-mazepav88gmailcoms-projects.vercel.app/api/deals"
+    );
     const data = await response.json();
     dispatch({
       type: GET_DEALS,
