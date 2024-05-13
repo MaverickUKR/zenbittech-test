@@ -1,0 +1,7 @@
+.img-wrapper {
+  min-width: 890px;
+  min-height: 943px;
+  background: url("../../../public/assets/images/background_loginPage.png")
+    no-repeat center / cover;
+  max-width: 1440px;
+}

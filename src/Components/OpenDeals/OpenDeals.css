@@ -1,0 +1,44 @@
+.deals-wrapper {
+  background: #f4f4f4;
+  max-width: 1440px;
+}
+.deals-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #b29f7e;
+  padding-top: 30px;
+  margin-top: 0;
+  margin-left: 80px;
+}
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 1280px;
+  margin: 0 80px;
+}
+
+.deal-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 630px;
+  height: 400px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  font-family: "Lato", sans-serif;
+}
+
+.deal-info {
+  position: absolute;
+  bottom: 10px;
+  left: 14px;
+  width: 100%;
+}
